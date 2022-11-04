@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body style="background-color: rgb(241, 238, 238);">
+    <center>
+        <h1>Sign Up</h1>
+  
+    
+    <form>
+        <h2><span class="dot">1</span>
+           <b>Your basic info</b> </h2>
+        <label for="name"> <i>Name:</i></label><br>
+        <input type="text" id="fname" name="fname" size="50" ><br><br>
+        <label  for="Email"><i>Email</i></label><br>
+        <input type="email" id="lname" name="lname" size="50"  ><br><br>
+        <label for="password"><i>Password:</i></label><br>
+        <input type="password" id="password" name="password" size="50"  ><br><br>
+         <label for="Age"><i>Age:</i></label><br><br>
+        <input type = "radio" name = "age" value = "Under 13"> <u>Under 13</u> <br> 
+        <input type = "radio" name = "age" value = "13 or older"> <u>13 or older</u> <br><br>
+        <h2><span class="dot"> 2</span>
+            <b>Your Profile</b></h2>
+       <i>Biography:</i>  <br>
+    <textarea rows = "5" cols = "50" name = "description" size="30"></textarea> <br><br><br>
+    
+    <label for="Job"><i>Job Role:</i></label><br>
+     <select name = "dropdown">
+        <option value = "business" selected>business Owner</option>
+        <option value = "Developer">Developer</option>
+        <option value = "Creator">Creator</option>
+        <option value = "HR">HR</option>
+        
+     </select>
+     <p>  </p>
+ <br>
+ <label for="Interests"><i>Interests:</i></label><br><br>
+  <input type = "checkbox" name = "Development" value = "on"> Development<br>
+ <input type = "checkbox" name = "Design" value = "on"> Design<br>
+ <input type = "checkbox" name = "Business" value = "on"> Business<br><br>
+    
+ 
+ <button class="buttons" type="submit" value="SignUp"><b> Sign Up</b>  </button><br><br>
+
+    </form>
+</center>
+</body>
+</html>
