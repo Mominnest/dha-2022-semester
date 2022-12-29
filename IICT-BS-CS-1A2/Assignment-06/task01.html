@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+    <center>
+    <h1>Enter a Number to Check its Square and Cube (●'◡'●) </h1>
+<div class="input">
+ <input type="text" name="x" id="first" placeholder="Enter a number"></div> 
+<div class="btn">
+ <button onclick="square()" >Square</button> 
+ <button onclick="cube()" >Cube</button> 
+<a style="text-decoration:none;" href="/task02.html"> <button >Next Task</button></a>
+</div>
+<div id ="num"></div>
+<div id="num1"></div>
+</center>
+</div>
+</body>
+<script type="text/javascript">
+function square()
+{
+var x,Square;
+x = parseInt(document.getElementById ("first").value);
+
+Square = x*x;
+
+document.getElementById ("num").innerHTML ="Square of "+x+" is : "+Square;
+
+}
+function cube(){
+var x,Cube;
+x = parseInt(document.getElementById ("first").value);
+
+Cube = x*x*x;
+
+document.getElementById ("num1").innerHTML ="Cube of "+x+" is : "+Cube;
+
+}
+</script>
+</html>

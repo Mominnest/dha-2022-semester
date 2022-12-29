@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>color changer using UI</title>
+</head>
+<body>
+    <center>
+    <h1>Change background of this paragraph (●'◡'●)</h1>
+</center>
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia est maxime nobis consequuntur sequi veniam explicabo possimus officiis! Laboriosam corporis repudiandae saepe assumenda, unde rerum fugit cum dignissimos molestiae voluptate!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima repellat consectetur quisquam eum itaque accusantium. Tempore, mollitia qui ratione nemo in veritatis recusandae omnis exercitationem? Facilis deserunt natus tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quos a quia officia praesentium cupiditate asperiores corporis veritatis quo illo neque excepturi, nobis dolorem quod veniam! Iure optio dolorem voluptatem.</p>
+    <div class="btn">
+        <button class="btn1" onclick="spgreen()">Springgreen</button>
+        <button class="btn2" onclick="salmon()">Salmon</button>
+        <button class="btn3" onclick="Rsbrown()">Rosybrown</button>
+        <button class="btn4" onclick="teal()">Teal</button>
+      <a style="text-decoration:none;" href="/task01.html">  <button class="btn5" >Previous Task</button></a>
+
+        
+    </div>
+    <script>
+        function spgreen(){
+            document.getElementById("paragraph").style.backgroundColor = "Springgreen";
+        }
+        function salmon(){
+            document.getElementById("paragraph").style.backgroundColor = "salmon";
+        }
+        function Rsbrown(){
+            document.getElementById("paragraph").style.backgroundColor = "Rosybrown";
+        }
+        function teal(){
+            document.getElementById("paragraph").style.backgroundColor = "teal";
+        }
+    </script>
+</body>
+</html>
