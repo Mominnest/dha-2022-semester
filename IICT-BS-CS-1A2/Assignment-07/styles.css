@@ -1,0 +1,129 @@
+
+body{
+  margin-left: 100px;
+    height: 450px; width: 1100px;
+    background-image: url("pics/Dark\ Green\ Modern\ Gradient\ Wave\ Linktree\ Background.png");
+    
+}
+
+h1{
+    font-size: 60px;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(217, 217, 217);
+}
+hr{
+    width:8%;
+    text-align:left;
+    margin-left: 10px;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    color: rgb(238, 238, 238);
+    font-size: 16px;
+}
+.div1{
+   
+   background: transparent;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    display: flex;
+    padding: 30px;
+    margin-left: 90px;
+    margin-right: -90px;
+    margin-top: 90px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+     .div2 a{
+      text-decoration: none;
+     }    
+.btn {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin-left: 0px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-color: white;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+  }
+  
+
+  .btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn1 {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin-left: 0px;
+    padding: 10px 135px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-color: white;
+    border-radius: 20px;
+    display: block;
+  }
+
+  .btn1:hover {
+    background-position: right center; 
+    color: #fff;
+    transform: translateX(-100%);
+    transition: 2s;
+    
+    text-decoration: none;
+  }
+
+  h3{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(217, 217, 217);
+
+  }
+.f1{
+    margin-left: 70px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  label{
+    color: rgb(217, 217, 217);
+
+  }
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+ 
+  i{
+    
+    margin-right: 5px;
+  }
+ img{
+    margin-top: -30px;
+    margin-left: -20px;
+ }

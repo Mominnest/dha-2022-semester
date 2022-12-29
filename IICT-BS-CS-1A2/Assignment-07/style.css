@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.contianer2{
+    margin-top: 40px;
+}
+.main{
+   
+    background: transparent;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+     display: flex;
+     padding: 30px;
+     margin-left: 90px;
+     margin-right: 90px;
+     margin-top: 10px;
+     
+     border-radius: 20px;
+     justify-content: space-evenly;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  label{
+    color: rgb(39, 39, 39);
+
+  }
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  input[type=url], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  
+  input[type=color], select {
+    width: 100%;
+    background: transparent;
+   border: none;
+   
+  }
+  input[type=datetime-local], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+   
+  }
+  input[type=range], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+    
+  }
+  .img1{
+    border-radius: 30px;
+  }
+  .btn1{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin-left: 0px;
+    padding: 10px 55px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-color: white;
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  .btn1:hover:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  h3{
+    font-size: 40px;
+    margin-top: -20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(31, 30, 30);
+
+  }
+  .container3{
+    display: flex;
+    justify-content: space-between;
+  }
+.container3 a{
+    text-decoration: none;
+}
+.df{
+ margin-bottom: -27px;
+  border-radius: 50%;
+  margin-left: -80px;
+}
