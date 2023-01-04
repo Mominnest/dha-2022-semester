@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CS221033_Lab08</title>
+</head>
+<body>
+    <div class="main">
+        <form onsubmit="return false" class="myform" >
+             <h1>Log In</h1>
+            <input type="text" id="user" placeholder="Enter Username" value="" required>
+            <br>
+            <input type="password" id="password" placeholder="Enter Password" value="" required>
+            <br>
+            <input type="password" id="repassword" placeholder=" Retype Password" value="" required>
+            <br>
+            <button class="btn"  type="submit" onclick="check()">LOG IN</button>
+
+            <div id="data">
+                <h3 id="h3"></h3>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+            
+            </div>
+        </form>
+    </div>
+<script>
+    function check(){
+         var Username= document.getElementById("user").value;
+         var pass= document.getElementById("password").value;
+         var repass= document.getElementById("repassword").value;
+          var prom;
+          if(pass==repass && pass.length>1){
+           prom= prompt("Enter your DOB");
+           document.getElementById("h3").innerHTML= "Entered Data";
+
+           document.getElementById("p1").innerHTML= "Username= "+Username;
+           document.getElementById("p2").innerHTML= "Password= "+pass;
+           document.getElementById("p3").innerHTML= "DOB= "+prom;
+         }
+         else{
+            alert("Invalid password!!!");
+        }
+    }
+</script>
+</body>
+</html>
